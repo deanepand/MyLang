@@ -1,0 +1,25 @@
+fungsi tambah(a, b) {
+    kembalikan a + b
+}
+
+fungsi faktorial(n) {
+    jika n <= 1 {
+        kembalikan 1
+    }
+    kembalikan n * faktorial(n - 1)
+}
+
+tampilkan(tambah(10, 20))
+tampilkan(faktorial(5))
+
+kali = fungsi(a, b) {
+    kembalikan a * b
+}
+tampilkan(kali(3, 4))
+
+// Default parameter
+fungsi sapa(nama = "Dunia") {
+    kembalikan "Halo " + nama
+}
+tampilkan(sapa())
+tampilkan(sapa("Epann"))
