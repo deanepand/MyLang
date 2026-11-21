@@ -1,0 +1,28 @@
+kelas Pengguna {
+    fungsi buat(nama, umur) {
+        diri.nama = nama
+        diri.umur = umur
+    }
+
+    fungsi sapa() {
+        tampilkan("Halo, saya " + diri.nama + " (" + diri.umur + " tahun)")
+    }
+}
+
+kelas Admin dari Pengguna {
+    fungsi buat(nama, umur, level) {
+        induk.buat(nama, umur)
+        diri.level = level
+    }
+
+    fungsi info() {
+        tampilkan("Admin " + diri.nama + ", level " + diri.level)
+    }
+}
+
+user = Pengguna("Epann", 17)
+user.sapa()
+
+admin = Admin("Root", 30, 5)
+admin.sapa()
+admin.info()
