@@ -1,0 +1,4 @@
+ambil { tambah, kurang } dari "./matematika.mylang"
+
+tampilkan(tambah(10, 5))
+tampilkan(kurang(10, 5))
