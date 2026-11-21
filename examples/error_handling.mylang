@@ -1,0 +1,11 @@
+coba {
+    hasil = 10 / 0
+    tampilkan(hasil)
+} tangkap error {
+    tampilkan("Terjadi kesalahan: " + error.message)
+} akhirnya {
+    tampilkan("Program selesai")
+}
+
+pastikan 1 + 1 == 2
+tampilkan("Assert berhasil")
