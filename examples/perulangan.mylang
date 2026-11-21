@@ -1,0 +1,15 @@
+// Perulangan
+untuk i dari 1 sampai 5 {
+    tampilkan("Iterasi ke-" + i)
+}
+
+hitung = 0
+selama hitung < 3 {
+    tampilkan("Hitung: " + hitung)
+    hitung += 1
+}
+
+buah = ["Apel", "Jeruk", "Mangga"]
+untuk i dari 0 sampai 2 {
+    tampilkan(buah[i])
+}
