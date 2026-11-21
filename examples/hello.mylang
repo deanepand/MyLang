@@ -1,0 +1,10 @@
+// Program pertama MyLang
+
+tampilkan("Halo Dunia!")
+
+nama = "Epann"
+umur = 17
+
+tampilkan("Nama: " + nama)
+tampilkan("Umur: " + umur)
+tampilkan("Halo, {nama}! Umur kamu {umur} tahun.")
