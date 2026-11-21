@@ -1,0 +1,10 @@
+fungsi tambah(a, b) {
+    kembalikan a + b
+}
+
+fungsi kurang(a, b) {
+    kembalikan a - b
+}
+
+ekspor tambah
+ekspor kurang
