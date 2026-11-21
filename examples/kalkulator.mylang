@@ -1,0 +1,32 @@
+fungsi kalkulator(a, b, op) {
+    pilih op {
+        kasus "+" {
+            kembalikan a + b
+        }
+        kasus "-" {
+            kembalikan a - b
+        }
+        kasus "*" {
+            kembalikan a * b
+        }
+        kasus "/" {
+            jika b == 0 {
+                lemparkan "Tidak bisa dibagi nol"
+            }
+            kembalikan a / b
+        }
+        standar {
+            lemparkan "Operator tidak dikenal: " + op
+        }
+    }
+}
+
+coba {
+    tampilkan(kalkulator(10, 5, "+"))
+    tampilkan(kalkulator(10, 5, "*"))
+    tampilkan(kalkulator(10, 0, "/"))
+} tangkap error {
+    tampilkan("Error: " + error.message)
+} akhirnya {
+    tampilkan("Kalkulator selesai")
+}
