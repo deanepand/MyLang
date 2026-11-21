@@ -1,0 +1,19 @@
+pengguna = {
+    nama: "Epann",
+    umur: 17,
+    aktif: benar,
+    hobi: ["Coding", "Gaming"]
+}
+
+tampilkan(pengguna.nama)
+tampilkan(pengguna.umur)
+tampilkan(pengguna.hobi)
+
+pengguna.umur = 18
+tampilkan("Umur baru: " + pengguna.umur)
+
+buah = ["Apel", "Jeruk"]
+buah.tambah("Mangga")
+tampilkan(buah)
+buah.hapus("Jeruk")
+tampilkan(buah)
