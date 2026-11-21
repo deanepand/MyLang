@@ -1,0 +1,16 @@
+{
+  "name": "mylang",
+  "version": "1.0.0",
+  "description": "MyLang — Kode Lebih Mudah, Logika Lebih Dekat.",
+  "type": "module",
+  "bin": { "my": "./bin/my.js" },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test tests/",
+    "start": "node bin/my.js"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["mylang", "bahasa-indonesia", "interpreter"],
+  "author": "EpannXD",
+  "license": "MIT"
+}
